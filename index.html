@@ -12,6 +12,10 @@
     <!-- Font awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- custom stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 
     <title>Hello, world!</title>
@@ -19,45 +23,59 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home
-                <span class="sr-only">(current)</span>
-            </a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-            </div>
-        </div>
+    <nav class="navbar text-center fixed-top">
+        <a class=" navbar-brand" href="#">Home</a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item ">
+                <a class="nav-link active " href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#portfolio">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Sign Up</a>
+            </li>
+        </ul>
     </nav>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <div class="row">
+                <h1 class="display-4">Powder Pack</h1>
+                <i class="fas fa-female fa-3x" style="margin:10px;"></i>
+            </div>
+            <p class="lead">Tired of automatically feeling down once that time of the month comes around? Interested in actually having something to lookforward to instead? Then Powder Pack is just right for you! A subscription box with all the things to make you happy
+                just when all you feel like is laying in bed and eating chocolate.
+            </p>
+            <button type="button" class="btn btn-outline-dark">Learn More</button>
+            <button type="button" class="btn btn-outline-dark">Sign Up</button>
         </div>
     </div>
 
     <div class="Testimonial">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores animi earum quisquam corrupti! Quos, aut porro ex sint vitae explicabo reiciendis corrupti, neque, ab odit consectetur quaerat quas ea distinctio?</p>
-    </div>
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores animi earum quisquam corrupti! Quos, aut porro ex sint vitae explicabo reiciendis corrupti, neque, ab odit consectetur quaerat quas ea distinctio?</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores animi earum quisquam corrupti! Quos, aut porro ex sint vitae explicabo reiciendis corrupti, neque, ab odit consectetur quaerat quas ea distinctio?</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores animi earum quisquam corrupti! Quos, aut porro ex sint vitae explicabo reiciendis corrupti, neque, ab odit consectetur quaerat quas ea distinctio?</p>
+            </div>
+        </div>
 
-    <div class="icons">
-        <i class="fas fa-coffee"></i>
-        <i class="fas fa-female"></i>
-        <i class="far fa-smile"></i>
+        <div class="icons">
+            <i class="fas fa-coffee"></i>
+            <i class="fas fa-female"></i>
+            <i class="far fa-smile"></i>
 
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

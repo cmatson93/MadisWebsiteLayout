@@ -1,3 +1,21 @@
 .Testimonial {
     height: 100vh;
 }
+
+body {
+    background-color: #D8E2DC;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: #D8E2DC;
+}
+
+.navbar a {
+    color: #9D8189;
+}
+
+.jumbotron {
+    background-color: #F4ACB7;
+    margin-top: 50px;
+}
