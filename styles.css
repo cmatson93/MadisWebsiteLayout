@@ -1,7 +1,3 @@
-.Testimonial {
-    height: 100vh;
-}
-
 body {
     background-color: #D8E2DC;
     font-family: 'Raleway', sans-serif;
@@ -18,4 +14,13 @@ body {
 .jumbotron {
     background-color: #F4ACB7;
     margin-top: 50px;
+}
+
+.test-col {
+    border: solid 2px black;
+    margin: 3px;
+}
+
+* {
+    border: 1px solid red
 }
